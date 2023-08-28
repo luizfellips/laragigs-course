@@ -24,6 +24,8 @@ Route::get('/',
 Route::get('/listings/{listing}',
 [ListingController::class,'show']);
 
+Route::get('/DUMP_TEST',
+[ListingController::class,'test']);
 // Common Resources Routes:
 // index -  show all listings
 // show - show single listing
